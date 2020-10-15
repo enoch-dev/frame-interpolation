@@ -1,25 +1,25 @@
 <template>
   <v-app>
-  <v-app-bar app></v-app-bar>
+    <v-app-bar app></v-app-bar>
 
-  <v-main>
-    <HelloWorld/>
-  </v-main>
-</v-app>
+    <v-main>
+      <FrameInterpolation />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import FrameInterpolation from './components/FrameInterpolation'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    FrameInterpolation
   },
 
   data: () => ({
     //
   }),
-};
+}
 </script>
