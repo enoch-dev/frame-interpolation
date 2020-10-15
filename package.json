@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "@mdi/font": "^3.6.95",
+<<<<<<< HEAD
     "axios": "^0.20.0",
+=======
+    "@vue/eslint-config-prettier": "^6.0.0",
+>>>>>>> cb408a2ca5e190f9ad402a28ab3f89876a90fdf1
     "core-js": "^3.6.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
